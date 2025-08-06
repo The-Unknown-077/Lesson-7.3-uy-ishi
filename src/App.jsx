@@ -13,9 +13,9 @@ const Users = lazy(() => import('./pages/SideBar/users/Users'))
 const UsersAll = lazy(() => import('./pages/SideBar/users/All'))
 const UsersStats = lazy(() => import('./pages/SideBar/users/Statistics'))
 
-const Books = lazy(() => import('./pages/SideBar/Books/Books'))
-const BooksAll = lazy(() => import('./pages/SideBar/Books/All'))
-const BooksStats = lazy(() => import('./pages/SideBar/Books/Statistics'))
+const Books = lazy(() => import('./pages/SideBar/books/Books'))
+const BooksAll = lazy(() => import('./pages/SideBar/books/All'))
+const BooksStats = lazy(() => import('./pages/SideBar/books/Statistics'))
 
 const Extras = lazy(() => import('./pages/SideBar/extras/Extras'))
 const ExtrasAll = lazy(() => import('./pages/SideBar/extras/All'))
